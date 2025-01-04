@@ -3,20 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/styleSheets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Daily Planner</title>
 </head>
 <body>
-    <div class="page-wrapper">
-        <div class="calender">
-            <div class="cal-header">
-                <button id="prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
-                
-                <button id="prev-btn"><i class="fa-solid fa-chevron-right"></i></button>
-            </div>
+    <div class="page-wrapper"> <!--Holds the entire web app-->
+        <div class="nav-menu">
+            <a href="#" class="nav-item">Home</a>
+            <a href="#" class="nav-item nav-active">Calendar</a>
+            <a href="#" class="nav-item">Tasks</a>
+            <a href="#" class="nav-item">Lists</a>
+            <a href="#" class="nav-item">Budget</a>
         </div>
+    <!--<div class="weather-card">
+            <div class="search">
+                <input type="text" placeholder="Enter Zip Code"
+                spellcheck="false" style="text-align: center;" id="search-bar">
+                <button><img src="images/search.png" alt="search icon"></button>
+            </div>
+            <div class="weather">
+                <div class="temp-and-icon">
+                    <img src="images/rain.png" alt="rain icon" class="weather-icon">
+                    <h2 class="temp"></h2>
+                </div>
+                <h3 class="city"></h3>
+                <div class="details">
+                    <div class="col">
+                        <img src="images/humidity.png" alt="humidity icon">
+                        <div>
+                            <p class="humidity"></p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/wind.png" alt="wind icon">
+                        <div>
+                            <p class="wind"></p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
     </div>
-    <script src="main.js"></script>
+    <script src="assets/scripts/main.js"></script>
 </body>
 </html>
